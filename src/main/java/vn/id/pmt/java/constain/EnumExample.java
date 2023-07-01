@@ -1,4 +1,4 @@
-package vn.id.pmt.java.fp;
+package vn.id.pmt.java.constain;
 
 import java.util.List;
 import lombok.Getter;
@@ -6,9 +6,10 @@ import lombok.Getter;
 /**
  * Example data for test
  */
-public enum ExampleData {
+public enum EnumExample {
 
     ;
     @Getter
     private final List<String> stringList = List.of("Apple", "Banana", "Cat", "Dog");
 }
+

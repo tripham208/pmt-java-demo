@@ -15,7 +15,6 @@ public class Function {
         final public static int METHOD_REFERENCE = 2;
         final public static int MAX_OPERATION = 11;
         final public static int TO_LIST_OPERATOR = 13;
-
         public static final int CUSTOM = 20;
     }
 
