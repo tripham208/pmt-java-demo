@@ -20,7 +20,7 @@ public class Function {
 
     public static void printLoopFunction(List<String> list, int type) {
         switch (type) {
-            case Type.METHOD_REFERENCE -> list.stream().forEach(System.out::println);
+            case Type.METHOD_REFERENCE -> list.forEach(System.out::println);
             case Type.LAMBDA -> list.stream().forEach(e -> System.out.println(e));
             default -> {
                 return;
